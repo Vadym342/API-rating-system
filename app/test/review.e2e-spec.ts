@@ -9,9 +9,9 @@ import { REVIEW_NOT_FOUND } from '../src/review/review.constants';
 const productId = new Types.ObjectId().toHexString();
 
 const testDto: CreateReviewDto = {
-	name: 'Тест',
-	title: 'Заголовок',
-	description: 'Описание тестовое',
+	name: 'Test1',
+	title: 'Test1',
+	description: 'Test1 Test1',
 	rating: 5,
 	productId
 };
